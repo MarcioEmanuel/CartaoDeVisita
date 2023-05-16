@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'Monda-Regular';
+    src: url('./font/Monda-Regular.ttf') format('truetype');
+}
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+    height: max-content;
+    background: linear-gradient(45deg, black, #252525) no-repeat;
+}
+
+/*Header*/
+header{
+    display: flex;
+}
+
+/*Main*/
+main{
+    display: flex;
+    position: relative;
+    height: 764px;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+
+/*Div Imagem Styles*/
+.ImagemAnimada{
+    display: block;
+    width: 700px;
+    height: 600px;
+}
+
+.Nome{
+    text-shadow: 2px 2px 2px #6b0b7e;
+    -webkit-text-stroke-width: 100%;
+    font-size: 25px;
+    font-family: Monda-Regular;
+    display: flex;
+    justify-content: center;
+    color: #91e1f5;
+}
+
+.Cargo{
+
+    -webkit-text-stroke-width: 100%;
+    font-size: 20px;
+    font-family: Monda-Regular;
+    display: flex;
+    justify-content: center;
+    color: #91e1f5;
+    margin-top: -70px;
+}
+
+/*Div Contato Styles*/
+
+.Menu{
+    margin-top: 220px;
+    display: block;
+    background: linear-gradient(45deg, #6930C3, #c971df);
+    border-radius: 10px;
+    width: 600px;
+    height: 600px;
+}
+
+.Contatos{
+    display: flex;
+    justify-content: center;
+    font-family: Monda-Regular;
+    font-size: 20px;
+    color: #91e1f5;
+    text-shadow: 1px 1px 2px #252525;
+    -webkit-text-stroke-width: 100%;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #6930C3;
+    border-radius: 10px;
+    margin: 10px;
+    background: linear-gradient(45deg, #6930C3, #c971df);
+    width: 500px;
+    height: 50px;
+    font-family: Monda-Regular;
+    font-size: 145%;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+button:hover{
+    background: linear-gradient(45deg, #c971df, #6930C3);
+}
+
+button a{
+    text-decoration: none;
+    color: #91e1f5;
+}
+
+/*Retirar pontos da Lista ul li*/
+ul li {
+    list-style-type: none;
+  }
+
+footer{
+    display: flex;
+}
