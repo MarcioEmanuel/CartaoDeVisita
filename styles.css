@@ -37,23 +37,23 @@ main{
 }
 
 .Nome{
-    text-shadow: 2px 2px 2px #6b0b7e;
+    text-shadow: 2px 4px 5px #bc6acc;
     -webkit-text-stroke-width: 100%;
     font-size: 25px;
     font-family: Monda-Regular;
     display: flex;
     justify-content: center;
-    color: #91e1f5;
+    color: #ffffff;
 }
 
 .Cargo{
-
+    text-shadow: 2px 4px 5px #bc6acc;
     -webkit-text-stroke-width: 100%;
     font-size: 20px;
     font-family: Monda-Regular;
     display: flex;
     justify-content: center;
-    color: #91e1f5;
+    color: #ffffff;
     margin-top: -70px;
 }
 
@@ -73,8 +73,8 @@ main{
     justify-content: center;
     font-family: Monda-Regular;
     font-size: 20px;
-    color: #91e1f5;
-    text-shadow: 1px 1px 2px #252525;
+    color: #ffffff;
+    text-shadow: 2px 2px 5px #020101;
     -webkit-text-stroke-width: 100%;
 }
 
@@ -83,7 +83,7 @@ button{
     justify-content: center;
     align-items: center;
     padding: 10px;
-    border: 1px solid #6930C3;
+    border: 1px solid #530ec2;
     border-radius: 10px;
     margin: 10px;
     background: linear-gradient(45deg, #6930C3, #c971df);
@@ -101,7 +101,8 @@ button:hover{
 
 button a{
     text-decoration: none;
-    color: #91e1f5;
+    color: #ffffff;
+    text-shadow: 2px 4px 5px #000000;
 }
 
 /*Retirar pontos da Lista ul li*/
