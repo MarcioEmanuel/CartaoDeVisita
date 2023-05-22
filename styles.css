@@ -95,6 +95,9 @@ button{
     font-size: 145%;
     cursor: pointer;
     transition: all .3s ease;
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: 2px 4px 5px #000000;
 }
 
 button:hover{
